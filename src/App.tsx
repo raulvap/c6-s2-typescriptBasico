@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { TiposBasicos } from "./typescript/01-TiposBasicos";
+import ObjetosLiterales from "./typescript/02-ObjetosLiterales";
+import Funciones from "./typescript/03-Funciones";
+import Contador from "./components/04-hooks";
+import CustomHook from "./components/05-customHook";
+import Login from "./components/06-Login";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-2">
+      <h1>Introduccón a React con TypeScript</h1>
+      <hr />
+      <TiposBasicos />
+      <ObjetosLiterales />
+      <Funciones />
+      <Contador />
+      <CustomHook />
+      <Login />
     </div>
   );
 }
