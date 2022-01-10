@@ -4,6 +4,9 @@ import Funciones from "./typescript/03-Funciones";
 import Contador from "./components/04-hooks";
 import CustomHook from "./components/05-customHook";
 import Login from "./components/06-Login";
+import Usuarios from "./components/07-Usuarios";
+import CustomHookUsuariosComponent from "./components/08-CustomHookUsuarios";
+import Formularios from "./components/09-Formularios";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Contador />
       <CustomHook />
       <Login />
+      <Usuarios />
+      <CustomHookUsuariosComponent />
+      <Formularios />
     </div>
   );
 }
